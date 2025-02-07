@@ -8,8 +8,8 @@ import Env from "@src/common/Env";
 const router = Router();
 
 export let db = new Postgres({
-    database: "postgres",
-    host: "127.0.0.1",
+    database: "test_db",
+    host: "postgres",
     password: "postgres",
     port: 5432,
     user: "postgres"
